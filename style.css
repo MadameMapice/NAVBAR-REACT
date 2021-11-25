@@ -48,13 +48,19 @@ a{
         flex-direction: column;
         align-items: center;
         background-color: pink;
-        transition: all 1s linear;
+       
+        overflow: hidden;
     }
 
     .menu{
-        display: none;
+    
+      height: 0;
+      transition: all 1s linear;
     }
-
+    ².ouvert{
+    
+     height: 81vh;
+}
 
     nav h1{
         margin: 20px;
